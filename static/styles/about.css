@@ -51,7 +51,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 1px #000000 solid;
+    border: 1px #00000096 solid;
 }
 
 .about .about2 .team div img span {
@@ -76,5 +76,10 @@
     .about .about2 .team {
         display: flex;
 	    flex-wrap: wrap;
+    }
+
+    .about .about2 .team div img {
+        width: 100px;
+        height: 100px;
     }
 }

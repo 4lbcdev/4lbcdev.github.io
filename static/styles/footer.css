@@ -42,7 +42,7 @@ footer {
 }
 
 .footer1 .location {
-    background: url("./images/location.png") no-repeat top center;
+    /* background: url("./images/location.png") no-repeat top center; */
     width: 20px;
 }
 
@@ -52,6 +52,22 @@ footer {
 
 .footer2 div .social {
     margin-left: 10px;
+}
+
+.footer2 .subscribe {
+    display: inline;
+}
+
+.footer2 .subscribe input {
+    font-size: 14px;
+    padding: 1px 4px;
+    margin-right: 0;
+}
+
+.footer2 .subscribe button {
+    font-size: 14px;
+    padding: 1px 4px;
+    margin-left: 0;
 }
 
 .footer3 ul {
