@@ -53,10 +53,15 @@
 }
 
 @media only screen and (max-width: 720px) {
+    .title {
+        padding: 8% 0;
+    }
+
     .contact {
         padding: 0 2% 4% 2%;
         grid-template-columns: 1fr;
     }
+    
     .contact .form {
         display: grid;
         grid-template-columns: 1fr;

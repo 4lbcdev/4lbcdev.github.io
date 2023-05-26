@@ -43,7 +43,8 @@ footer {
 
 .footer1 .location {
     /* background: url("./images/location.png") no-repeat top center; */
-    width: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 .footer2 div {
@@ -56,6 +57,7 @@ footer {
 
 .footer2 .subscribe {
     display: inline;
+    position: relative;
 }
 
 .footer2 .subscribe input {
@@ -67,7 +69,8 @@ footer {
 .footer2 .subscribe button {
     font-size: 14px;
     padding: 1px 4px;
-    margin-left: 0;
+    position: absolute;
+    right: 0;
 }
 
 .footer3 ul {
@@ -86,9 +89,14 @@ footer {
 }
 
 @media only screen and (max-width: 720px) {
+    .footer {
+        padding: 2% 4%;
+    }
+
     .footer .main {
         grid-template-columns: 1fr;
     }
+
     .divider {
         display: block;
     }

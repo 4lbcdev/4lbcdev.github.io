@@ -12,15 +12,14 @@
     gap: 30px;
 }
 
-
-.blog a {
-    text-decoration: none;
-}
-
 .blog article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+}
+
+.blog article a {
+    text-decoration: none;
 }
 
 .blog article .feature_image {
@@ -37,7 +36,16 @@
     text-decoration: underline;
 }
 
+.blog article .meta {
+    color: gray;
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 720px) {
+    .title {
+        padding: 8% 0;
+    }
+
     .blog {
         padding: 0 2% 4% 2%;
     }
