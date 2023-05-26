@@ -1,10 +1,9 @@
 .header {
     background: #000080c1;
     height: 100px;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid #CCCCCC;
     position: relative;
-    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,29 +12,39 @@
 
 .header .logo {
     background: url("../images/logo.png") no-repeat;
-    padding-left: 30px;
-    left: 20px;
+    position: absolute;
+    left: 4%;
+    color: #FFFFFF;
 }
 
-.header .nav {
-    padding-right: 30px;
+.header .menu {
+    position: absolute;
+    right: 4%;
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.header .nav a {
+.header .menu a {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 14px;
 }
 
-.header .nav a:hover {
+.header .menu a:hover {
     text-decoration: none;
 }
 
+.header .nav {
+    display: none;
+    position: absolute;
+    right: 20px;
+    /* background: url("../images/menu_open.png") no-repeat top center; */
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 720px) {
-    .header .nav {
+    .header .menu {
         display: none;
         position: absolute;
         right: 0;
@@ -43,5 +52,11 @@
         flex-direction: column;
         background-color: #000000;
         padding: 30px;
+    }
+    .header .nav {
+        display: block;
+        position: absolute;
+        right: 20px;
+        /* background: url("../images/menu_open.png") no-repeat top center; */
     }
 }

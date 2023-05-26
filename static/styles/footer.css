@@ -1,6 +1,5 @@
 footer {
     background: #168dd9;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     padding: 30px;
@@ -42,7 +41,7 @@ footer .main {
 
 .footer1 .location {
     background: url("./images/location.png") no-repeat top center;
-    width:20px;
+    width: 20px;
 }
 
 .footer2 div {
@@ -61,7 +60,6 @@ footer .main {
     display: none;
     height: 1px;
     background-color: silver;
-    width: 100%;
     margin: 10px 0;
 }
 
