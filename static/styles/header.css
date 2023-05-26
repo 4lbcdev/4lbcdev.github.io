@@ -44,6 +44,9 @@
 }
 
 @media only screen and (max-width: 720px) {
+    .header {
+        height: 70px;
+    }
     .header .menu {
         display: none;
     }
