@@ -46,12 +46,6 @@
 @media only screen and (max-width: 720px) {
     .header .menu {
         display: none;
-        position: absolute;
-        right: 0;
-        bottom: -220px;
-        flex-direction: column;
-        background-color: #000000;
-        padding: 30px;
     }
     .header .nav {
         display: block;

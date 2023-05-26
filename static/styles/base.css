@@ -9,6 +9,7 @@
 
 body {
     background-color: #FFFFFF;
-    height: 100vh;
     overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
 }

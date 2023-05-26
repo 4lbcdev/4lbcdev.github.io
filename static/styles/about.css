@@ -1,14 +1,12 @@
 .about {
-    padding: 4% 30px;
-    margin-bottom: 40px;
-    display: grid;
-    gap: 8%;
+    margin: 4%;
 }
 
 .about .about1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10%;
+    margin-bottom: 40px;
 }
 
 .about .about1 div {
@@ -30,9 +28,53 @@
 .about .about2 {
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.about .about2 .team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.about .about2 .team div {
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 8px;
+}
+
+.about .about2 .team div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px #000000 solid;
+}
+
+.about .about2 .team div img span {
+    color: #000000;
 }
 
 .about .about3 {
     width: 100%;
     text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .about {
+        margin: 4% 2%;
+    }
+    
+    .about .about1 {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about .about2 .team {
+        display: flex;
+	    flex-wrap: wrap;
+    }
 }
