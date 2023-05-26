@@ -15,6 +15,11 @@
     background-color: gray;
 }
 
+.post .meta {
+    color: gray;
+    font-size: 12px;
+}
+
 .post p {
     margin-bottom: 14px;
 }
@@ -23,7 +28,7 @@
     .title {
         padding: 8% 0;
     }
-    
+
     .post {
         padding: 0 2% 4% 2%;
     }
