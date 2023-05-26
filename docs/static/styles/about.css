@@ -1,0 +1,38 @@
+.about {
+    padding: 4% 30px;
+    margin-bottom: 40px;
+    display: grid;
+    gap: 8%;
+}
+
+.about .about1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+}
+
+.about .about1 div {
+    border: 1px black solid;
+    border-radius: 4px;
+    text-align: center;
+    height: 300px;
+    padding: 14px 4px;
+}
+
+.about .about1 div h2 {
+    margin-bottom: 10px;
+}
+
+.about .about1 div p {
+    line-height: 2em;
+}
+
+.about .about2 {
+    width: 100%;
+    text-align: center;
+}
+
+.about .about3 {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 4% 0;
+}
+
+.blog {
+    padding: 0 20% 4% 20%;
+    max-width: 900px;
+    display: grid;
+    gap: 30px;
+}
+
+
+.blog a {
+    text-decoration: none;
+}
+
+.blog article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+.blog article .feature_image {
+    aspect-ratio: 3/2;
+    max-width: 720px;
+    background-color: gray;
+}
+
+.blog article h2, div {
+    color: #000000;
+}
+
+.blog article a:hover h2 {
+    text-decoration: underline;
+}

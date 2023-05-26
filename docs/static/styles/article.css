@@ -1,0 +1,13 @@
+.post {
+    padding: 4% 20%;
+}
+
+.post .feature_image {
+    aspect-ratio: 3/2;
+    max-width: 720px;
+    background-color: gray;
+}
+
+.post p {
+    margin-bottom: 14px;
+}
