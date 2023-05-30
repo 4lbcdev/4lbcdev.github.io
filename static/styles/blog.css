@@ -3,10 +3,12 @@
     width: 100%;
     justify-content: center;
     padding: 4% 0;
+    background-color: #4170b7;
+    color: #FFFFFF;
 }
 
 .blog {
-    padding: 0 20% 4% 20%;
+    padding: 6vh 20% 6vh 20%;
     max-width: 900px;
     display: grid;
     gap: 30px;
@@ -47,6 +49,6 @@
     }
 
     .blog {
-        padding: 0 2% 4% 2%;
+        padding: 4vh 3vh;
     }
 }

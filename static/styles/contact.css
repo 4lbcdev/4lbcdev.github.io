@@ -3,10 +3,12 @@
     width: 100%;
     justify-content: center;
     padding: 4% 0;
+    background-color: #4170b7;
+    color: #FFFFFF;
 }
 
 .contact {
-    padding: 0 20% 4% 20%;
+    padding: 10vh 20%;
     max-width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -58,7 +60,7 @@
     }
 
     .contact {
-        padding: 0 2% 4% 2%;
+        padding: 4vh 3vh;
         grid-template-columns: 1fr;
     }
     

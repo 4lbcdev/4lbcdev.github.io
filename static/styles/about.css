@@ -1,71 +1,78 @@
 .about {
-    margin: 4%;
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 6vh 0;
+}
+
+.about div p {
+    padding: 1vh;
 }
 
 .about .about1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10%;
-    margin-bottom: 60px;
+    padding: 10vh 0;
 }
 
 .about .about1 div {
     border: 1px black solid;
-    border-radius: 4px;
+    border-radius: 4%;
     text-align: center;
     height: 300px;
     padding: 14px 4px;
+    background-color: #4170b7;
 }
 
-.about .about1 div h2 {
-    margin-bottom: 10px;
+.about .about1 div h1 {
+    color: #FFFFFF;
+    padding-bottom: 14vh;
 }
 
 .about .about1 div p {
+    color: #FFFFFF;
     line-height: 2em;
 }
 
-.about .about2 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.about .about2 .team {
+.about .team {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 4%;
 }
 
-.about .about2 .team div {
+.about .team div {
     display: flex;
-    max-width: 400px;
+    max-width: 370px;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin: 8px;
+    margin: 20px;
 }
 
-.about .about2 .team div img {
+.about .team div img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 1px #00000096 solid;
+    border: 1px #00000066 solid;
+    margin-bottom: 10px;
 }
 
-.about .about2 .team div img span {
+.about .team div img p {
     color: #000000;
-}
-
-.about .about3 {
-    width: 100%;
-    text-align: center;
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 720px) {
     .about {
-        margin: 4% 2%;
+        padding: 0 3vw;
+    }
+
+    .title {
+        padding: 3vh 0;
     }
     
     .about .about1 {
@@ -73,12 +80,12 @@
         gap: 40px;
     }
 
-    .about .about2 .team {
+    .about .team {
         display: flex;
 	    flex-wrap: wrap;
     }
 
-    .about .about2 .team div img {
+    .about .team div img {
         width: 100px;
         height: 100px;
     }
