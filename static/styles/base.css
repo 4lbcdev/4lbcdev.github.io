@@ -7,6 +7,18 @@
     display: none;
 }
 
+@font-face {
+    font-family: CrimsonPro;
+    src: url('../fonts/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: NotoSerif;
+    src: url('../fonts/Noto_Serif/NotoSerif-VariableFont.ttf') format('truetype');
+    font-style: normal;
+}
+
 body {
     background-color: #FFFFFF;
     overflow-x: hidden;

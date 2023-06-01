@@ -17,7 +17,7 @@ header .container .logo {
     /* background: url("../images/logo.png") no-repeat; */
     position: absolute;
     left: 0;
-    height: 140px;
+    height: 80px;
     width: auto;
 }
 
@@ -33,8 +33,9 @@ header .container .menu {
 header .container .menu a {
     text-decoration: none;
     color: #606060;
-    font-size: 14px;
+    font-family: NotoSerif;
     font-weight: 600;
+    font-size: 16px;
 }
 
 header .container .menu a:hover {
@@ -49,8 +50,9 @@ header .container .menu button {
     background-color: #33a74f;
     border-radius: 12px;
     color: #FFFFFF;
-    font-size: 14px;
+    font-family: NotoSerif;
     font-weight: 600;
+    font-size: 14px;
 }
 
 header .container .menu button:hover {
@@ -70,6 +72,10 @@ header .container .nav {
 
     header .container {
         margin: 0 3vw;
+    }
+
+    header .container .logo {
+        height: 70px;
     }
 
     header .container .menu {
