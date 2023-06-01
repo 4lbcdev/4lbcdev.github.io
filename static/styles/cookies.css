@@ -67,9 +67,6 @@
 }
 
 @media only screen and (max-width: 720px) {
-    .cookies {
-        display: block;
-    }
     .cookies .container {
         flex-direction: column;
     }
