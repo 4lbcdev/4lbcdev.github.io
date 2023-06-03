@@ -1,10 +1,11 @@
 .title {
     font-family: NotoSerif;
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     width: 100%;
     justify-content: center;
+    -webkit-justify-content: center;
     padding: 4% 0;
     background-color: #4170b7;
     color: #FFFFFF;
@@ -21,16 +22,17 @@
 
 .contact .form {
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     gap: 30px;
 }
 
 .contact .form div {
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
 }

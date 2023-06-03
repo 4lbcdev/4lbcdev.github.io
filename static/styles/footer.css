@@ -49,7 +49,7 @@ footer {
 
 .footer2 .social {
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: row;
     gap: 18px;

@@ -42,15 +42,16 @@
 
 .about .team {
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     flex-wrap: wrap;
     justify-content: center;
+    -webkit-justify-content: center;
 }
 
 .about .team div {
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     max-width: 370px;
     flex-direction: column;
@@ -87,7 +88,7 @@
 
     .about .team {
         display: flex;
-        display: -webkit-box;
+        display: -webkit-flex;
         display: -ms-flexbox;
 	    flex-wrap: wrap;
     }

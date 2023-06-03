@@ -8,10 +8,11 @@ header .container {
     margin: 0 8vw;
     position: relative;
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: row;
     justify-content: space-between;
+    -webkit-justify-content: space-between;
     align-items: center;
 }
 
@@ -27,7 +28,7 @@ header .container .menu {
     position: absolute;
     right: 0;
     display: flex;
-    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: row;
     gap: 20px;
