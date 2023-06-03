@@ -14,6 +14,7 @@ header .container {
     justify-content: space-between;
     -webkit-justify-content: space-between;
     align-items: center;
+    -webkit-align-items: center;
 }
 
 header .container .logo {
@@ -33,6 +34,7 @@ header .container .menu {
     flex-direction: row;
     gap: 20px;
     align-items: center;
+    -webkit-align-items: center;
 }
 
 header .container .menu a {
