@@ -25,6 +25,8 @@
 
 .cookies .container {
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;    
     flex-direction: row;
     justify-content: space-between;
     gap: 16px;
@@ -32,6 +34,7 @@
     padding: 0;
     margin: 0;
     width: calc(100% - 60px);
+    width: -webkit-calc(100% - 60px);
 }
 
 .cookies .container p {
@@ -51,6 +54,8 @@
 
 .cookies .container div {
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;          
     flex-direction: column;
     gap: 20px;
 }

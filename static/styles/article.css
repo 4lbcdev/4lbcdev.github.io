@@ -1,6 +1,8 @@
 .title {
     font-family: NotoSerif;
     display: flex;
+    display: -webkit-box;
+        display: -ms-flexbox;
     width: 100%;
     justify-content: center;
     padding: 4% 0;

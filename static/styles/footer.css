@@ -29,6 +29,7 @@ footer {
 
 .container .main {
     display: grid;
+    display: -webkit-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin-bottom: 3%;
@@ -48,6 +49,8 @@ footer {
 
 .footer2 .social {
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     flex-direction: row;
     gap: 18px;
 }
@@ -66,6 +69,7 @@ footer {
 .footer3 .subscribe {
     width: 100%;
     display: grid;
+    display: -webkit-grid;
     grid-template-columns: 1fr;
     gap: 14px;
 }
@@ -83,6 +87,8 @@ footer {
 
 .footer3 .subscribe button {
     width: calc(100% + 8px);
+    width: -webkit-calc(100% - 8px);
+    width: -ms-calc(100% - 8px);
     background-color: #4170b7;
     border: none;
     font-family: CrimsonPro;
