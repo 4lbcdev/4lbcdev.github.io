@@ -241,6 +241,14 @@ ABOUT SECTION
         width: 100%;
         height: 100%;
     }
+
+    .about div h1 {
+        text-align: center;
+    }
+    
+    .about div p {
+        text-align: center;
+    }
 }
 
 /* ====================================================================================
