@@ -191,15 +191,15 @@ INTRO SECTION
     }
 
     .intro div .container h3 {
-        font-size: 14px;
-    }
-    
-    .intro div .container h1 {
         font-size: 16px;
     }
     
+    .intro div .container h1 {
+        font-size: 20px;
+    }
+    
     .intro div .container p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
