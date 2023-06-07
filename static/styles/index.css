@@ -189,6 +189,18 @@ INTRO SECTION
     .intro div .container {
         width: 90vw;
     }
+
+    .intro div .container h3 {
+        font-size: 14px;
+    }
+    
+    .intro div .container h1 {
+        font-size: 16px;
+    }
+    
+    .intro div .container p {
+        font-size: 12px;
+    }
 }
 
 /* ====================================================================================
