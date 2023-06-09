@@ -82,13 +82,13 @@ footer {
     width: 100%;
     font-family: CrimsonPro;
     font-size: 14px;
-    padding: 1px 4px;
+    padding: 2px 4px;
 }
 
 .footer3 .subscribe button {
     width: calc(100% + 8px);
-    width: -webkit-calc(100% - 8px);
-    width: -ms-calc(100% - 8px);
+    width: -webkit-calc(100% + 8px);
+    width: -ms-calc(100% + 8px);
     background-color: #4170b7;
     border: none;
     font-family: CrimsonPro;
