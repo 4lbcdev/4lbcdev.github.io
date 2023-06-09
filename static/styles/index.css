@@ -231,7 +231,7 @@ INTRO SECTION
     color: #bcbcbc;
 }
 
-.intro div .container button {
+.intro button {
     display: none;
     text-transform: uppercase;
     padding: 14px 20px;
@@ -242,7 +242,11 @@ INTRO SECTION
     font-family: NotoSerif;
     font-weight: 600;
     font-size: 14px;
-    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .intro div .container button:hover {
@@ -271,7 +275,7 @@ INTRO SECTION
         font-size: 14px;
     }
 
-    .intro div .container button {
+    .intro button {
         display: block;
     }
 }
