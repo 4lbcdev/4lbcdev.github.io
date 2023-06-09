@@ -1,15 +1,25 @@
 .drawer {
-    display: none;    
+    position: absolute;
+    top: -100%;
+    animation-name: slideIn;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 82px;
+    }
 }
 
 .drawer a {
     text-decoration: none;
     font-family: NotoSerif;
     color: #FFFFFF;
-}
-
-.drawer_hide {
-    display: none;
 }
 
 @media only screen and (max-width: 720px) {
