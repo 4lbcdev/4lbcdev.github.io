@@ -7,7 +7,7 @@
     justify-content: center;
     -webkit-justify-content: center;
     padding: 4% 0;
-    background-image: linear-gradient(to bottom right, var(--blue), #09090b);
+    background-image: linear-gradient(to bottom right, #4170b7, #09090b);
     color: #FFFFFF;
 }
 
