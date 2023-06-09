@@ -446,6 +446,116 @@ BLOG SECTION
 
 /* ====================================================================================
 
+CONTACT US SECTION
+
+=======================================================================================*/
+
+.title {
+    font-family: NotoSerif;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 4% 0;
+    background-image: var(--title-gradient);
+    color: #FFFFFF;
+}
+
+.contact {
+    padding: 10vh 20%;
+    max-width: 900px;
+    display: grid;
+    display: -webkit-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.contact .form {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    gap: 30px;
+}
+
+.contact .form div {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+}
+
+.contact .form div span {
+    color: #53565f;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contact .form div input {
+    color: #000000;
+    font-family: CrimsonPro;
+    font-size: 18px;
+    background-color: #00000023;
+    border: none;
+    border-bottom: 1px #000000 solid;
+    padding: 10px 4px;
+}
+
+.contact .form div textarea {
+    color: #000000;
+    font-family: CrimsonPro;
+    font-size: 14px;
+    background-color: #00000023;
+    border: none;
+    border-bottom: 1px #000000 solid;
+    padding: 10px 4px;
+}
+
+.contact .form button {
+    padding: 14px 20px;
+    border: none;
+    background-color: var(--green);
+    color: #FFFFFF;
+    font-family: NotoSerif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.contact .form button:hover {
+    background-color: #4170b7;
+}
+
+.contact .map {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1 / 1;
+}
+
+@media only screen and (max-width: 720px) {
+    .title {
+        padding: 8% 0;
+    }
+
+    .contact {
+        padding: 4vh 3vh;
+        grid-template-columns: 1fr;
+    }
+    
+    .contact .form {
+        display: grid;
+        display: -webkit-grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+/* ====================================================================================
+
 FOOTER 
 
 =======================================================================================*/

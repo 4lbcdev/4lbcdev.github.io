@@ -73,6 +73,10 @@
     padding-top: 10px;
 }
 
+.about .join {
+    text-align: center;
+}
+
 @media only screen and (max-width: 720px) {
     .about {
         padding: 0 3vw;
