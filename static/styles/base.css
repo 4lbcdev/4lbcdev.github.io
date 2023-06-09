@@ -5,6 +5,7 @@
     --red:#e52127;
     --zinc:#09090b;
     --border-bottom: 4px solid #e52127;
+    --title-gradient: linear-gradient(to bottom right, #4170b7, #09090b);
 
 }
 
