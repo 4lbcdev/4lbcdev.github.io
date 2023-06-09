@@ -27,7 +27,7 @@
     text-align: center;
     height: 300px;
     padding: 14px 4px;
-    background-color: #4170b7;
+    background-color: var(--blue);
 }
 
 .about .about1 div h1 {

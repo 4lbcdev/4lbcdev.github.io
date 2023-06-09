@@ -33,7 +33,7 @@
         -webkit-align-items: center;
         padding: 20px 0;
         gap: 12px;
-        background-color: #09090b;
+        background-color: var(--zinc);
         width: 100vw;
     }
 }

@@ -89,7 +89,7 @@ footer {
     width: calc(100% + 8px);
     width: -webkit-calc(100% + 8px);
     width: -ms-calc(100% + 8px);
-    background-color: #4170b7;
+    background-color: var(--blue);
     border: none;
     font-family: CrimsonPro;
     font-size: 14px;
@@ -116,7 +116,7 @@ footer {
 
 .footer {
     width: 100v;
-    background-color: #4170b7;
+    background-color: var(--blue);
     color: #FFFFFF;
     font-family: CrimsonPro;
     font-size: 14px;

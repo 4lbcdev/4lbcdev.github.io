@@ -13,7 +13,7 @@ header {
 }
 
 .header_border {
-    border-bottom: 4px solid #e52127;
+    border-bottom: var(--border-bottom);
 }
 
 
@@ -66,7 +66,7 @@ header .container .menu button {
     text-transform: uppercase;
     padding: 14px 20px;
     border: none;
-    background-color: #33a74f;
+    background-color: var(--green);
     border-radius: 12px;
     color: #FFFFFF;
     font-family: NotoSerif;
@@ -75,7 +75,7 @@ header .container .menu button {
 }
 
 header .container .menu button:hover {
-    background-color: #4170b7;
+    background-color: var(--blue);
 }
 
 header .container .nav {
@@ -152,7 +152,7 @@ DRAWER
         -webkit-align-items: center;
         padding: 20px 0;
         gap: 12px;
-        background-color: #09090b;
+        background-color: var(--zinc);
         width: 100vw;
     }
 }
@@ -219,7 +219,7 @@ INTRO SECTION
 }
 
 .intro div .container h3 {
-    color: #f2b61b;
+    color: var(--yellow);
     text-transform: uppercase;
 }
 
@@ -236,7 +236,7 @@ INTRO SECTION
     text-transform: uppercase;
     padding: 14px 20px;
     border: none;
-    background-color: #33a74f;
+    background-color: var(--green);
     border-radius: 12px;
     color: #FFFFFF;
     font-family: NotoSerif;
@@ -246,7 +246,7 @@ INTRO SECTION
 }
 
 .intro div .container button:hover {
-    background-color: #4170b7;
+    background-color: var(--blue);
 }
 
 @media only screen and (max-width: 720px) {
@@ -332,7 +332,7 @@ OUR WORK SECTION
 
 .work h1 {
     text-align: center;
-    color: #e52127;
+    color: var(--red);
 }
 
 .work .offerings {
@@ -351,7 +351,6 @@ OUR WORK SECTION
     box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.4);
     aspect-ratio: 2/3;
     height: 400px;
-    background-color: #4170b754;
     position: relative;
 }
 
@@ -402,7 +401,7 @@ OUR WORK SECTION
     cursor: pointer;
     padding: 14px 20px;
     border: none;
-    background-color: #33a74f;
+    background-color: var(--green);
     border-radius: 12px;
     color: #FFFFFF;
     font-family: NotoSerif;
@@ -424,7 +423,7 @@ BLOG SECTION
 =======================================================================================*/
 
 .blog {
-    background-color: #4170b7;
+    background-color: var(--blue);
     padding: 4vh 12vw;
     margin: 15vh 0;
 }
@@ -539,7 +538,7 @@ footer {
     width: calc(100% + 8px);
     width: -webkit-calc(100% + 8px);
     width: -ms-calc(100% + 8px);
-    background-color: #4170b7;
+    background-color: var(--blue);
     border: none;
     font-family: CrimsonPro;
     font-size: 14px;
@@ -566,7 +565,7 @@ footer .divider {
 
 .footer {
     width: 100v;
-    background-color: #4170b7;
+    background-color: var(--blue);
     color: #FFFFFF;
     font-family: CrimsonPro;
     font-size: 14px;

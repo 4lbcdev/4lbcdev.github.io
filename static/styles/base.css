@@ -1,3 +1,13 @@
+:root{
+    --blue:#4170b7;
+    --green:#33a74f;
+    --yellow:#f2b61b;
+    --red:#e52127;
+    --zinc:#09090b;
+    --border-bottom: 4px solid #e52127;
+
+}
+
 * {
     margin: 0;
     padding: 0;

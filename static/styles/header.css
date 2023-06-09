@@ -1,6 +1,6 @@
 header {
     background: #FFFFFF;
-    border-bottom: 4px solid #e52127;
+    border-bottom: var(--border-bottom);
     z-index: 3;
 }
 
@@ -55,7 +55,7 @@ header .container .menu button {
     text-transform: uppercase;
     padding: 14px 20px;
     border: none;
-    background-color: #33a74f;
+    background-color: var(--green);
     border-radius: 12px;
     color: #FFFFFF;
     font-family: NotoSerif;
@@ -64,7 +64,7 @@ header .container .menu button {
 }
 
 header .container .menu button:hover {
-    background-color: #4170b7;
+    background-color: var(--blue);
 }
 
 header .container .nav {
