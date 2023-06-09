@@ -8,7 +8,7 @@ header {
     background-color: transparent;
     border-bottom: none;
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     width: 100vw;
 }
 
