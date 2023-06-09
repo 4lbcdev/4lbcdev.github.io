@@ -442,7 +442,6 @@ IMPACT SECTION
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
-    gap: 0;
     background-color: #e7dfdf;
 }
 
@@ -450,7 +449,6 @@ IMPACT SECTION
     display: grid;
     display: -webkit-grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0;
 }
 
 .impact .impacts .item div {
@@ -473,8 +471,28 @@ IMPACT SECTION
 
 @media only screen and (max-width: 720px) {
     .impact {
-        padding: 4vh 3vw;
+        padding: 4vh 0;
         margin: 8vh 0;
+    }
+
+    .impact .impacts {
+        margin-top: 12vh;
+    }
+
+    .impact .impacts .item {
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        flex-direction: column;
+    }
+
+    .impact .impacts .item:nth-child(2) {
+        flex-direction: column-reverse;
+    }
+
+    .impact .impacts .item div {
+        width: 100vw;
+        height: 200px;
     }
 }
 
