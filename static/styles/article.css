@@ -2,12 +2,12 @@
     font-family: NotoSerif;
     display: flex;
     display: -webkit-flex;
-        display: -ms-flexbox;
+    display: -ms-flexbox;
     width: 100%;
     justify-content: center;
     -webkit-justify-content: center;
     padding: 4% 0;
-    background-color: #4170b7;
+    background-image: linear-gradient(to bottom right, #4170b7, #09090b);
     color: #FFFFFF;
 }
 
