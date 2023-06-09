@@ -24,6 +24,7 @@
 
 @media only screen and (max-width: 720px) {
     .drawer {
+        z-index: 2;
         display: flex;
         display: -webkit-flex;
         display: -ms-flexbox;

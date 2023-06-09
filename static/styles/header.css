@@ -1,6 +1,7 @@
 header {
     background: #FFFFFF;
     border-bottom: 4px solid #e52127;
+    z-index: 3;
 }
 
 header .container {
