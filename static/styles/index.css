@@ -66,7 +66,7 @@ header .container .menu button {
     text-transform: uppercase;
     padding: 14px 20px;
     border: none;
-    background-color: var(--green);
+    background-color: var(--red);
     border-radius: 12px;
     color: #FFFFFF;
     font-family: NotoSerif;
@@ -206,7 +206,7 @@ INTRO SECTION
 
 .intro div {
     height: 100vh;
-    background-color: #ff973097;
+    background-color: #5C541897;
 }
 
 .intro div .container {
@@ -240,7 +240,7 @@ INTRO SECTION
     text-transform: uppercase;
     padding: 14px 20px;
     border: none;
-    background-color: var(--green);
+    background-color: var(--red);
     border-radius: 12px;
     color: #FFFFFF;
     font-family: NotoSerif;
