@@ -206,7 +206,7 @@ INTRO SECTION
 
 .intro div {
     height: 100vh;
-    background-color: #817f1cbf;
+    background-color: #FF4500bf;
 }
 
 .intro div .container {
@@ -232,7 +232,7 @@ INTRO SECTION
 }
 
 .intro div .container p {
-    color: #bcbcbc;
+    color: #cdcdcd;
 }
 
 .intro button {

@@ -16,27 +16,31 @@
 .about .about1 {
     display: grid;
     display: -webkit-grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0;
     padding: 10vh 0;
 }
 
 .about .about1 div {
-    border: 1px black solid;
-    border-radius: 4%;
+    border: none;
     text-align: center;
-    height: 300px;
+    height: 400px;
     padding: 14px 4px;
-    background-color: var(--blue);
+    background-image: var(--banner-gradient);
+    color: #FFFFFF;
+}
+.about .about1 div:nth-child(2) {
+    background-image: none;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .about .about1 div h1 {
-    color: #FFFFFF;
     padding-bottom: 14vh;
+    text-transform: uppercase;
 }
 
 .about .about1 div p {
-    color: #FFFFFF;
     line-height: 2em;
 }
 
@@ -88,7 +92,6 @@
     
     .about .about1 {
         grid-template-columns: 1fr;
-        gap: 40px;
     }
 
     .about .team {
