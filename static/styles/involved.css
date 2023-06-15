@@ -11,9 +11,13 @@
     color: #FFFFFF;
 }
 
-.involved {
+.involved, .join {
     padding: 10vh 20%;
     gap: 30px;
+}
+
+.join {
+    text-align: center;
 }
 
 @media only screen and (max-width: 720px) {

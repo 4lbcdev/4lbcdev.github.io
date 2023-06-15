@@ -174,12 +174,25 @@ HOME SECTION
     margin: 15vh 0;
 }
 
-.home .section {
+.home .inner {
     padding: 0 12vw;
 }
 
-.home .section_fw {
+.inner h1 {
+    color: var(--red);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8vh;
+}
+
+.home .fw {
     padding: 0;
+}
+
+.fw h1 {
+    color: var(--red);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @media only screen and (max-width: 720px) {
@@ -187,7 +200,7 @@ HOME SECTION
         margin: 8vh 0;
     }
 
-    .home .section {
+    .home .inner {
         padding: 0 3vw;
     }
 }
@@ -303,7 +316,8 @@ ABOUT SECTION
     height: 315px;
 }
 
-.about div h1 {
+.about h1 {
+    text-align: left;
     color: #000000;
 }
 
@@ -338,11 +352,6 @@ OUR WORK SECTION
 
 =======================================================================================*/
 
-.work h1 {
-    text-align: center;
-    color: var(--red);
-}
-
 .work .offerings {
     display: flex;
     display: -webkit-flex;
@@ -351,7 +360,6 @@ OUR WORK SECTION
     justify-content: center;
     -webkit-justify-content: center;
     gap: 2vw;
-    margin-top: 8vh;
 }
 
 .work .offerings .item {
@@ -430,11 +438,6 @@ IMPACT SECTION
 
 =======================================================================================*/
 
-.impact h1 {
-    text-align: center;
-    color: var(--red);
-}
-
 .impact .impacts {
     width: 100vw;
     margin-top: 8vh;
@@ -498,24 +501,48 @@ IMPACT SECTION
 
 /* ====================================================================================
 
-BLOG SECTION
+TESTIMONIALS SECTION
 
 =======================================================================================*/
 
-.blog {
-    padding: 4vh 12vw;
+.testimonials {
     margin: 15vh 0;
 }
 
-.blog h1 {
-    color: var(--red);
+.testimonials .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    -webkit-justify-content: center;
+    gap: 2vw;
+}
+
+.testimonials .container div {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    gap: 10px;
     text-align: center;
+    align-items: center;
+}
+
+.testimonials .container .snapshot{
+    background-color: gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
 }
 
 @media only screen and (max-width: 720px) {
-    .blog {
+    .testimonials {
         padding: 4vh 3vw;
         margin: 8vh 0;
+    }
+
+    .testimonials .container {
+        grid-template-columns: 1fr;
+        gap: 8vh;
     }
 }
 
