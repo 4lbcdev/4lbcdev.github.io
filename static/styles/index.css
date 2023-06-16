@@ -219,7 +219,7 @@ INTRO SECTION
 
 .intro div {
     height: 100vh;
-    background-color: #5C541897;
+    /* background-color: #5C541897; */
 }
 
 .intro div .container {
@@ -368,9 +368,10 @@ OUR WORK SECTION
     aspect-ratio: 2/3;
     height: 400px;
     position: relative;
+    background-image: var(--banner-gradient);
 }
 
-.work .offerings .item:nth-child(1) {
+/* .work .offerings .item:nth-child(1) {
     background: url("../images/data-training.png") no-repeat center;
     background-size: 100% auto;
 }
@@ -393,7 +394,7 @@ OUR WORK SECTION
 .work .offerings .item:nth-child(5) {
     background: url("../images/advocacy.png") no-repeat center;
     background-size: 100% auto;
-}
+} */
 
 .work .offerings .item div {
     position: absolute;
