@@ -28,7 +28,7 @@ $(document).ready(function() {
     var $menuLinks = $('.menu a');
 
     // Check the scroll position
-    if (scrollPosition >= 100) {
+    if (scrollPosition >= 0) {
       // Change the header background color to white
       $header.css('background-color', 'white');
       // Add the .header_border class to the header

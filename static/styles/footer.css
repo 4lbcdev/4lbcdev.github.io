@@ -107,7 +107,7 @@ footer {
     margin-bottom: 4px;
 }
 
-.divider {
+.main .divider {
     display: none;
     height: 1px;
     background-color: silver;
@@ -134,7 +134,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .divider {
+    .main .divider {
         display: block;
     }
 }
