@@ -3,12 +3,17 @@ header {
     border-bottom: var(--border-bottom);
     box-shadow: 0 6px 10px #00000079;
     z-index: 4;
+    height: 100px;
+    padding: 0 8vw;
 }
 
 header .container {
-    height: 50px;
-    margin: 0 8vw;
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -20,16 +25,11 @@ header .container {
 }
 
 header .container .logo {
-    /* background: url("../images/logo.png") no-repeat; */
-    position: absolute;
-    left: 0;
-    height: 80px;
+    height: 60px;
     width: auto;
 }
 
 header .container .menu {
-    position: absolute;
-    right: 0;
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -77,14 +77,11 @@ header .container .nav {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 820px) {
 
-    header .container {
-        margin: 0 3vw;
-    }
-
-    header .container .logo {
+    header {
         height: 70px;
+        padding: 0 3vw;
     }
 
     header .container .menu {
