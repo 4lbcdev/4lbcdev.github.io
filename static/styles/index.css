@@ -20,7 +20,7 @@ HOME SECTION
 }
 
 .inner h1 {
-    color: var(--red);
+    color: #000000;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 8vh;
@@ -31,7 +31,7 @@ HOME SECTION
 }
 
 .fw h1 {
-    color: var(--red);
+    color: #000000;
     text-align: center;
     text-transform: uppercase;
 }
@@ -52,65 +52,9 @@ INTRO SECTION
 
 =======================================================================================*/
 
-.intro {
-    background: url("../images/Data-\ For-\ HomePage.jpg") no-repeat center;
-    background-size: 100% 100%;
-    position: relative;
-    overflow: hidden;
-    height: 100vh;
-}
-
-.intro .container {
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 45vw;
-    margin: 0;
-    padding-top: 100px;
-    text-align: left;   
-    background-color: #FFFFFF;
-}
-
-.intro .container h3 {
-    color: #000000;
-    text-transform: uppercase;
-}
-
-.intro .container h1 {
-    color: #000000;
-}
-
-.intro .container p {
-    color: #343434;
-}
-
-@media only screen and (max-width: 810px) {
-    .intro {
-        background: url("../images/Data-\ For-\ HomePage.jpg") no-repeat center;
-        background-size: 100% 100%;
-        height: 500px;
-    }
-
-    .intro .container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        padding: 60px 10px 0 10px;
-        text-align: center;
-        background-color: #ffffff88;
-    }
-
-    .intro .container h3 {
-        font-size: 16px;
-    }
-    
-    .intro .container h1 {
-        font-size: 20px;
-    }
-    
-    .intro .container p {
-        font-size: 14px;
-    }
+.home img {
+    width: 100%;
+    height: auto;
 }
 
 /* ====================================================================================
@@ -120,17 +64,7 @@ ABOUT SECTION
 =======================================================================================*/
 
 .about {
-    display: grid;
-    display: -webkit-grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
     margin-top: 15vh;
-}
-
-.about iframe {
-    width: 560px;
-    height: 315px;
-    aspect-ratio: 112 / 63;
 }
 
 .about h1 {
@@ -145,8 +79,6 @@ ABOUT SECTION
 
 @media only screen and (max-width: 810px) {    
     .about {
-        grid-template-columns: 1fr;
-        gap: 40px;
         margin-top: 8vh;
     }
 
@@ -239,7 +171,6 @@ WORK SECTION
     background-color: var(--green);
     border-radius: 12px;
     color: #FFFFFF;
-    font-family: NotoSerif;
     font-weight: 600;
     font-size: 14px;
 }
@@ -323,196 +254,12 @@ IMPACT SECTION
 
 /* ====================================================================================
 
-TESTIMONIALS SECTION
-
-=======================================================================================*/
-
-.testimonials {
-    margin: 15vh 0;
-}
-
-.testimonials .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    -webkit-justify-content: center;
-    gap: 2vw;
-}
-
-.testimonials .container .item {
-    text-align: center;
-}
-
-.testimonials .container div .quote {
-    background-color: var(--yellow);
-    padding: 20px;
-}
-
-.testimonials .container div .quote-p {
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.testimonials .container .snapshot{
-    background-color: gray;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-}
-
-/* ARROW */
-
-.custom-shape-divider-bottom-1687353486 {
-    background-color: var(--yellow);
-    bottom: 0px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1687353486 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 40px;
-}
-
-.custom-shape-divider-bottom-1687353486 .shape-fill {
-    fill: #FFFFFF;
-}
-
-@media only screen and (max-width: 810px) {
-    .testimonials {
-        margin: 8vh 0;
-    }
-
-    .testimonials .container {
-        grid-template-columns: 1fr;
-        gap: 8vh;
-    }
-}
-
-/* ====================================================================================
-
-VOLUNTEER SECTION
-
-=======================================================================================*/
-
-.volunteer {
-    background-color: var(--green);
-    display: grid;
-    display: -webkit-grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
-    padding: 14vh 20vw;
-}
-
-.volunteer button {
-    cursor: pointer;
-    padding: 14px 20px;
-    border: none;
-    background-color: #FFFFFF;
-    border-radius: 12px;
-    color: #000000;
-    font-family: NotoSerif;
-    font-weight: 600;
-    font-size: 14px;
-}
-
-@media only screen and (max-width: 810px) {
-
-    .volunteer {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 8vh 3vw;
-        text-align: center;
-    }
-}
-
-/* ====================================================================================
-
-BLOG SECTION
-
-=======================================================================================*/
-
-.blog {
-    background: url("../images/Team_Solving\ _A\ problem.jpg") no-repeat center;
-    background-size: 100% auto;
-    border-radius: 12px;
-    margin: 15vh 0;
-}
-
-.blog .container {
-    display: grid;
-    display: -webkit-grid;
-    grid-template-columns: 3fr 1fr;
-    padding-top: 20vw;
-    color: #FFFFFF;
-}
-
-.blog .container .feature h1 {
-    color: #FFFFFF;
-    text-align: left;
-}
-
-.blog .container .feature button {
-    padding: 14px 20px;
-    border: none;
-    background-color: var(--green);
-    border-radius: 8px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-}
-
-.blog .container .list {
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    flex-direction: column;
-    height: 100%;
-    margin-bottom: 15vh;
-}
-
-.blog .container .list .divider {
-    background-color: var(--green);
-    height: 2px;
-    width: 100%;
-}
-
-@media only screen and (max-width: 810px) {
-    .blog {
-        background: url("../images/Data-\ For-\ HomePage.jpg") no-repeat left;
-        margin: 8vh 4vw;
-    }
-
-    .blog .container {
-        grid-template-columns: 1fr;
-    }
-
-    .blog .container .list {
-        margin-bottom: 8vh;
-    }
-
-    .blog .container .list h2:nth-child(1){
-        display: none;
-    }
-}
-
-/* ====================================================================================
-
 PARTNERS SECTION
 
 =======================================================================================*/
 
 .partners {
-    margin-bottom: 15vh;
+    margin: 15vh 0;
 }
 
 .partners .items {
@@ -532,7 +279,7 @@ PARTNERS SECTION
 
 @media only screen and (min-width: 768px) and (max-width: 810px) {
     .partners {
-        margin-bottom: 8vh;
+        margin: 8vh 0;
     }
 
     .partners .items {

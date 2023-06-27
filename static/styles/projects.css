@@ -25,3 +25,80 @@
         padding: 4vh 3vh;
     }
 }
+
+
+/* ====================================================================================
+
+TESTIMONIALS SECTION
+
+=======================================================================================*/
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonials .container {
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    -webkit-justify-content: center;
+    gap: 2vw;
+}
+
+.testimonials .container .item {
+    text-align: center;
+}
+
+.testimonials .container div .quote {
+    background-color: var(--yellow);
+    padding: 20px;
+}
+
+.testimonials .container div .quote-p {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonials .container .snapshot{
+    background-color: gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+/* ARROW */
+
+.custom-shape-divider-bottom-1687353486 {
+    background-color: var(--yellow);
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1687353486 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 40px;
+}
+
+.custom-shape-divider-bottom-1687353486 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media only screen and (max-width: 810px) {
+
+    .testimonials .container {
+        padding-top: 4vh;
+        grid-template-columns: 1fr;
+        gap: 8vh;
+    }
+}
+

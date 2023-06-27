@@ -1,5 +1,4 @@
 .title {
-    font-family: NotoSerif;
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -11,17 +10,15 @@
     color: #FFFFFF;
 }
 
-
 .contact {
     padding: 10vh 20%;
-    max-width: 900px;
-    display: grid;
-    display: -webkit-grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact .form {
+.contact form {
+    width: 400px;
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -31,22 +28,21 @@
     gap: 30px;
 }
 
-.contact .form div {
+.contact form div {
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
 }
 
-.contact .form div span {
+.contact form div span {
     color: #53565f;
     font-size: 14px;
     font-weight: 700;
 }
 
-.contact .form div input {
+.contact form div input {
     color: #000000;
-    font-family: CrimsonPro;
     font-size: 18px;
     background-color: #00000023;
     border: none;
@@ -54,9 +50,8 @@
     padding: 10px 4px;
 }
 
-.contact .form div textarea {
+.contact form div textarea {
     color: #000000;
-    font-family: CrimsonPro;
     font-size: 14px;
     background-color: #00000023;
     border: none;
@@ -64,23 +59,17 @@
     padding: 10px 4px;
 }
 
-.contact .form button {
+.contact form button {
     padding: 14px 20px;
     border: none;
     background-color: var(--green);
     color: #FFFFFF;
-    font-family: NotoSerif;
     font-weight: 600;
     font-size: 14px;
 }
 
-.contact .form button:hover {
+.contact form button:hover {
     background-color: #4170b7;
-}
-
-.contact img {
-    width: 100%;
-    height: auto;
 }
 
 .involved, .join {
@@ -92,24 +81,13 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 767px) {
     .title {
         padding: 8% 0;
     }
 
     .contact {
         padding: 4vh 3vh;
-        display: flex;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        flex-direction: column-reverse;
-    }
-    
-    .contact .form {
-        display: grid;
-        display: -webkit-grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
     }
 
     .involved {
