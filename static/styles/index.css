@@ -64,7 +64,7 @@ ABOUT SECTION
 =======================================================================================*/
 
 .about {
-    margin-top: 15vh;
+    margin: 15vh 0;
 }
 
 .about h1 {
@@ -79,7 +79,7 @@ ABOUT SECTION
 
 @media only screen and (max-width: 810px) {    
     .about {
-        margin-top: 8vh;
+        margin: 8vh 0;
     }
 
     .about iframe {
