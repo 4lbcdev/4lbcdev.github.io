@@ -28,3 +28,9 @@ body {
     overflow-y: scroll;
     position: relative;
 }
+
+@media only screen and (max-width: 810px) {
+    p {
+        font-size: 0.9rem;
+    }
+}

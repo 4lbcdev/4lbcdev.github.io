@@ -8,13 +8,6 @@ HOME SECTION
     top: 0;
 }
 
-.home .divider {
-    background-color: #1d1e2137;
-    height: 2px;
-    width: 100%;
-    margin: 15vh 0;
-}
-
 .home .inner {
     padding: 0 8vw;
 }
@@ -37,12 +30,15 @@ HOME SECTION
 }
 
 @media only screen and (max-width: 810px) {
-    .home .divider {
-        margin: 8vh 0;
-    }
-
     .home .inner {
         padding: 0 3vw;
+    }
+    .inner h1 {
+        font-size: 20px;
+        margin-bottom: 2vh;
+    }    
+    .fw h1 {
+        font-size: 20px;
     }
 }
 
@@ -54,7 +50,17 @@ INTRO SECTION
 
 .home img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+@media only screen and (max-width: 767px) {
+    .home img {
+        height: auto;
+        object-fit: fill;
+        -o-object-fit: fill;
+    }
 }
 
 /* ====================================================================================
@@ -64,7 +70,7 @@ ABOUT SECTION
 =======================================================================================*/
 
 .about {
-    margin: 15vh 0;
+    margin: 8vh 0;
 }
 
 .about h1 {
@@ -78,10 +84,6 @@ ABOUT SECTION
 }
 
 @media only screen and (max-width: 810px) {    
-    .about {
-        margin: 8vh 0;
-    }
-
     .about iframe {
         width: 100%;
         height: auto;
@@ -108,7 +110,7 @@ SLIDER SECTION
     width: 100%;
     height: auto;
     aspect-ratio: 4 / 3;
-    margin: 15vh 0;
+    margin: 8vh 0;
 }
   
 .slide {
@@ -144,12 +146,12 @@ SLIDER SECTION
     position: absolute;
     bottom: 20%;
     right: -100%;
-    background-color: var(--green);
     color: white;
     padding: 10px;
     transition: right 2s;
     font-size: xx-large;
     max-width: 300px;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .slide.active .caption {
@@ -157,9 +159,6 @@ SLIDER SECTION
 }
   
 @media only screen and (max-width: 767px) { 
-    .slider {
-        margin: 8vh 0;
-    }
     .caption {
         font-size: medium;
         max-width: 150px;
@@ -175,7 +174,7 @@ IMPACT SECTION
 
 .impact .impacts {
     width: 100vw;
-    margin-top: 15vh;
+    margin-top: 8vh;
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -207,18 +206,7 @@ IMPACT SECTION
     aspect-ratio: 7/4;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 810px) {
-    .impact .impacts {
-        margin-top: 8vh;
-    }
-}
-
 @media only screen and (max-width: 767px) {
-
-    .impact .impacts {
-        margin-top: 8vh;
-    }
-
     .impact .impacts .item {
         display: flex;
         display: -webkit-flex;
@@ -233,6 +221,7 @@ IMPACT SECTION
     .impact .impacts .item div {
         width: 100vw;
         height: 200px;
+        text-align: center;
     }
 }
 
@@ -243,45 +232,35 @@ PARTNERS SECTION
 =======================================================================================*/
 
 .partners {
-    margin: 15vh 0;
+    margin: 8vh 0;
 }
 
 .partners .items {
     display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    flex-direction: row;
-    overflow-x: scroll;
-    gap: 50px;
-    margin: 15vh 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 8vh;
 }
 
 .partners .items img {
     height: 180px;
     width: 180px;
+    object-fit: fill;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 810px) {
     .partners {
         margin: 8vh 0;
     }
-
-    .partners .items {
-        gap: 20px;
-        margin: 8vh 0;
+    .partners .items img {
+        height: 120px;
+        width: 120px;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .partners {
-        margin-bottom: 8vh;
-    }
-
-    .partners .items {
-        gap: 20px;
-        margin: 8vh 0;
-    }
-
     .partners .items img {
         height: 80px;
         width: 80px;

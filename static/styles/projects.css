@@ -1,5 +1,4 @@
 .title {
-    font-family: NotoSerif;
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -16,13 +15,15 @@
     gap: 30px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 767px) {
     .title {
         padding: 8% 0;
     }
-
     .resources {
         padding: 4vh 3vh;
+    }
+    .resources h1 {
+        font-size: 20px;
     }
 }
 
@@ -94,11 +95,13 @@ TESTIMONIALS SECTION
 }
 
 @media only screen and (max-width: 810px) {
-
     .testimonials .container {
         padding-top: 4vh;
         grid-template-columns: 1fr;
         gap: 8vh;
+    }
+    .testimonials .container .item {
+        font-size: 0.9rem;
     }
 }
 
