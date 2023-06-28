@@ -1,5 +1,5 @@
 .drawer {
-    position: relative;
+    position: absolute;
     top: -100%;
     animation-name: slideIn;
     animation-duration: 500ms;
@@ -13,7 +13,7 @@
         top: -100%;
     }
     100% {
-        top: 0px;
+        top: 124px;
     }
 }
 

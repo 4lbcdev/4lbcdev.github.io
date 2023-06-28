@@ -98,88 +98,72 @@ ABOUT SECTION
 
 /* ====================================================================================
 
-WORK SECTION
+SLIDER SECTION
 
 =======================================================================================*/
 
-.work .offerings {
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    flex-wrap: wrap;
-    justify-content: center;
-    -webkit-justify-content: center;
-    gap: 2vw;
-    margin-top: 15vh;
-}
-
-.work .offerings .item {
-    box-shadow: -4px -4px 4px rgba(0, 0, 0, 0.4);
-    aspect-ratio: 2/3;
-    height: 400px;
+.slider {
     position: relative;
-    background-image: var(--banner-gradient);
-}
-
-/* .work .offerings .item:nth-child(1) {
-    background: url("../images/data-training.png") no-repeat center;
-    background-size: 100% auto;
-}
-
-.work .offerings .item:nth-child(2) {
-    background: url("../images/research.png") no-repeat center;
-    background-size: 100% auto;
-}
-
-.work .offerings .item:nth-child(3) {
-    background: url("../images/outreach.png") no-repeat center;
-    background-size: 100% auto;
-}
-
-.work .offerings .item:nth-child(4) {
-    background: url("../images/mentorship.png")no-repeat right;
-    background-size: auto 100%;
-}
-
-.work .offerings .item:nth-child(5) {
-    background: url("../images/advocacy.png") no-repeat center;
-    background-size: 100% auto;
-} */
-
-.work .offerings .item div {
-    position: absolute;
-    bottom: 10%;
-    display: flex;
-    flex-direction: column;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    align-items: center;
+    overflow: hidden;
     width: 100%;
-    gap: 30px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin: 15vh 0;
+}
+  
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    right: -100%; 
+    transition: right 0.8s, opacity 0.8s;
 }
 
-.work .offerings .item div h2 {
-    text-align: center;
-    color: #FFFFFF;
-    padding: 3px;
+.slide.active {
+    right: 0;
+    opacity: 1;
 }
 
-.work .offerings .item div button {
-    cursor: pointer;
-    padding: 12px 10px;
-    border: none;
+.slide.previous {
+    right: 100%;
+}
+
+.slide.next {
+    right: -100%;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+}
+
+.caption {
+    position: absolute;
+    bottom: 20%;
+    right: -100%;
     background-color: var(--green);
-    border-radius: 12px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 14px;
+    color: white;
+    padding: 10px;
+    transition: right 2s;
+    font-size: xx-large;
+    max-width: 300px;
 }
 
-@media only screen and (max-width: 810px) { 
-    .work .offerings {
-        gap: 8vh;
-        margin-top: 8vh;
-    } 
+.slide.active .caption {
+    right: 0px;
+}
+  
+@media only screen and (max-width: 767px) { 
+    .slider {
+        margin: 8vh 0;
+    }
+    .caption {
+        font-size: medium;
+        max-width: 150px;
+    }
 }
 
 
