@@ -9,7 +9,7 @@ HOME SECTION
 }
 
 .home .inner {
-    padding: 0 8vw;
+    padding: 0 19vw;
 }
 
 .inner h1 {
@@ -29,7 +29,7 @@ HOME SECTION
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 937px) {
     .home .inner {
         padding: 0 3vw;
     }

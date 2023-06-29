@@ -28,13 +28,13 @@ header {
 }
 
 #tagline {
-    font-family: Cambria;
+    font-family: 'Arial', sans-serif;
     font-size: 1rem;
     color: #000000;
     margin: 20px 0 0 19vw;
 }
 #tagline2 {
-    font-family: Arial;
+    font-family: 'Cambria', sans-serif;
     font-size: 1rem;
     color: #000000;
     margin: 0 0 10px 19vw;
