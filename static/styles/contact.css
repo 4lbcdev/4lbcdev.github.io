@@ -86,6 +86,7 @@
     .contact {
         padding: 4vh 3vh;
         grid-template-columns: 1fr;
+        width: calc(100vw - 6vw);
     }
     
     .contact .form {

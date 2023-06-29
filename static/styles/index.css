@@ -149,13 +149,13 @@ SLIDER SECTION
     color: white;
     padding: 10px;
     transition: right 2s;
-    font-size: 4rem;
+    font-size: 2rem;
     text-shadow: 2px 2px 2px #000000;
-    width: 500px;
+    width: 400px;
 }
 
 .slide.active .caption {
-    right: 15%;
+    right: 8%;
 }
   
 @media only screen and (max-width: 767px) { 
@@ -209,6 +209,27 @@ IMPACT SECTION
     height: auto;
     object-fit: cover;
     aspect-ratio: 7/4;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.button-container a {
+    margin: 4vh 0;
+    cursor: pointer;
+    padding: 14px 20px;
+    border: none;
+    background-color: var(--green);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.button-container a:hover {
+    background-color: #4170b7;
 }
 
 @media only screen and (max-width: 767px) {
