@@ -5,9 +5,9 @@
     --red:#e52127;
     --zinc:#09090b;
     --border-bottom: 4px solid #e52127;
-    --title-gradient: linear-gradient(to bottom right, #4170b7, #09090b);
+    --title-gradient: linear-gradient(to bottom , #09090b, #4170b7);
     /* --banner-gradient: linear-gradient(to bottom, #4170b7ac, #4170b7); */
-    --banner-gradient: linear-gradient(180deg, #0B75BD 0%, #04273F 83.59375%);
+    --banner-gradient: linear-gradient(180deg, #4170b7 0%, #051d41 83.59375%);
 
 }
 

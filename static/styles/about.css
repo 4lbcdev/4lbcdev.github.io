@@ -1,5 +1,5 @@
 .about {
-    padding: 0 8vw;
+    padding: 0 19vw;
     text-align: center;
 }
 
@@ -16,32 +16,44 @@
 .about .about1 {
     display: grid;
     display: -webkit-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0;
     padding: 10vh 0;
 }
 
-.about .about1 div {
+.about .about1 .item {
     border: none;
-    text-align: center;
     height: 400px;
-    padding: 14px 4px;
+    width: 100%;
+    padding-top: 14px;
     background-image: var(--banner-gradient);
     color: #FFFFFF;
 }
-.about .about1 div:nth-child(2) {
+
+.about .about1 .item h1 {
+    text-transform: uppercase;
+}
+
+.about .about1 .item:nth-child(2) {
     background-image: none;
     background-color: #FFFFFF;
     color: #000000;
 }
-
-.about .about1 div h1 {
-    padding-bottom: 14vh;
-    text-transform: uppercase;
+.about .about1 .item .container {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: column;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    height: 100%;
 }
 
-.about .about1 div p {
-    line-height: 2em;
+.about .about1 .item:nth-child(2) .container p {
+    padding: 4vh 0;
+    color: #000000;
 }
 
 .about .team {
@@ -77,7 +89,7 @@
     padding-top: 10px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 937px) {
     .about {
         padding: 0 3vw;
     }
@@ -88,6 +100,10 @@
     
     .about .about1 {
         grid-template-columns: 1fr;
+    }
+
+    .about .about1 .item {
+        width: 100%;
     }
 
     .about .team {

@@ -45,6 +45,7 @@ TESTIMONIALS SECTION
     justify-content: center;
     -webkit-justify-content: center;
     gap: 2vw;
+    max-width: 400px;
 }
 
 .testimonials .container .item {

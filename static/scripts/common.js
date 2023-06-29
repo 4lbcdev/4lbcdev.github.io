@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
-    $('.nav').attr('src', './static/images/menu_open.png');
-    $('.drawer').hide();
+    $('#nav').attr('src', './static/images/menu_open.png');
+    // $('.drawer').hide();
   
     // Click event handler for the image element
-    $('.nav').on('click', function() {
+    $('#nav').on('click', function() {
       var $img = $(this);
       var $drawer = $('.drawer');
       
@@ -12,12 +12,16 @@ $(document).ready(function() {
       if ($img.attr('src') === './static/images/menu_open.png') {
         // Change the src to the new image
         $img.attr('src', './static/images/menu_close.png');
-        $drawer.show();
+        $drawer.css('display', 'flex');
+        $drawer.css('display', '-webkit-flex');
+        $drawer.css('display', '-ms-flexbox');
+        // $drawer.show();
   
       } else {
         // Change the src back to the original image
         $img.attr('src', './static/images/menu_open.png');
-        $drawer.hide();
+        $drawer.css('display', 'none');
+        // $drawer.hide();
       }
     });  
   });

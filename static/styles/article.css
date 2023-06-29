@@ -12,12 +12,12 @@
 }
 
 .post {
-    padding: 6vh 20% 6vh 20%;
+    padding: 6vh 19vw;
 }
 
 .post .feature_image {
     aspect-ratio: 3/2;
-    max-width: 720px;
+    width: 100%;
     background-color: gray;
 }
 
@@ -30,11 +30,7 @@
     margin-bottom: 14px;
 }
 
-@media only screen and (max-width: 720px) {
-    .title {
-        padding: 8% 0;
-    }
-
+@media only screen and (max-width: 937px) {
     .post {
         padding: 4vh 3vh;
     }

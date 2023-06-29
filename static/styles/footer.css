@@ -3,8 +3,8 @@ footer {
 }
 
 .container {
-    margin: 0 8vw;
-    padding: 30px;
+    margin: 0 19vw;
+    padding: 30px 0;
 }
 
 .container > p, h3, span {
@@ -12,12 +12,10 @@ footer {
 }
 
 .container h3 {
-    font-family: NotoSerif;
     margin-bottom: 10px;
 }
 
 .container a {
-    font-family: CrimsonPro;
     font-size: 14px;
     text-decoration: none;
     color: #FFFFFF;
@@ -42,7 +40,6 @@ footer {
 
 .footer1 div {
     color: #FFFFFF;
-    font-family: CrimsonPro;
     font-size: 14px;
     margin-top: 18px;
 }
@@ -80,7 +77,6 @@ footer {
     border-bottom: 1px #FFFFFF solid;
     color: #FFFFFF;
     width: 100%;
-    font-family: CrimsonPro;
     font-size: 14px;
     padding: 2px 4px;
 }
@@ -91,7 +87,6 @@ footer {
     width: -ms-calc(100% + 8px);
     background-color: var(--blue);
     border: none;
-    font-family: CrimsonPro;
     font-size: 14px;
     color: #FFFFFF;
     padding: 4px 0px;
@@ -118,13 +113,12 @@ footer {
     width: 100v;
     background-color: var(--blue);
     color: #FFFFFF;
-    font-family: CrimsonPro;
     font-size: 14px;
     text-align: center;
     padding: 2vh 8vw;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 810px) {
+@media only screen and (min-width: 768px) and (max-width: 937px) {
     .container {
         margin: 0 3vw;
     }
@@ -133,7 +127,7 @@ footer {
 @media only screen and (max-width: 767px) {
     .container {
         margin: 0 3vw;
-        padding: 15px;
+        padding: 15px 0;
     }
 
     .container .main {
