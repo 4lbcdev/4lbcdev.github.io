@@ -28,6 +28,7 @@ footer {
 .container .main {
     display: grid;
     display: -webkit-grid;
+    display: -ms-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin-bottom: 3%;
@@ -110,7 +111,7 @@ footer {
 }
 
 .footer {
-    width: 100v;
+    width: 100vw;
     background-color: var(--blue);
     color: #FFFFFF;
     font-size: 14px;

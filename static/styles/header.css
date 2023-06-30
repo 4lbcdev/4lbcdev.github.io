@@ -1,8 +1,12 @@
 header {
     background-color: #FFFFFF;
-    border-bottom: var(--border-bottom);
     /* box-shadow: 0 6px 10px #00000079; */
     position: relative;
+    border-bottom: var(--border-bottom);
+    -webkit-border-bottom: var(--border-bottom); /* Safari */
+    -moz-border-bottom: var(--border-bottom); /* Firefox */
+    -ms-border-bottom: var(--border-bottom); /* Internet Explorer */
+    -o-border-bottom: var(--border-bottom); /* Opera */
 }
 
 .header {
@@ -16,6 +20,10 @@ header {
     background-size: contain;
     height: 100%;
     margin: 10px 0 20px 19vw;
+    -webkit-background-size: contain; /* Safari */
+    -moz-background-size: contain; /* Firefox */
+    -ms-background-size: contain; /* Internet Explorer */
+    -o-background-size: contain; /* Opera */
 }
 
 #nav {

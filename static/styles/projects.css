@@ -38,6 +38,17 @@ IMPACT SECTION
 
 =======================================================================================*/
 
+.tableauPlaceholder {
+    width: calc(100vw - 38vw);
+    height: auto;
+}
+
+@media only screen and (max-width: 937px) {
+    .tableauPlaceholder {
+        width: calc(100vw - 6vw);
+    }
+}
+
 
 /* ====================================================================================
 
@@ -48,7 +59,9 @@ TESTIMONIALS SECTION
 .testimonials .container {
     padding-top: 10vh;
     display: grid;
+    display: -ms-grid;
     grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
     justify-content: center;
     -webkit-justify-content: center;
     gap: 2vw;
@@ -106,6 +119,7 @@ TESTIMONIALS SECTION
     .testimonials .container {
         padding-top: 4vh;
         grid-template-columns: 1fr;
+        -ms-grid-columns: 1fr;
         gap: 8vh;
     }
     .testimonials .container .item {
