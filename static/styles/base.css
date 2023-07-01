@@ -66,6 +66,10 @@ body {
     color: #FFFFFF;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 @media only screen and (max-width: 720px) {
     .title {
         padding: 8% 0;

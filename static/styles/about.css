@@ -3,9 +3,8 @@
     text-align: center;
 }
 
-.title {
-    font-size: 30px;
-    font-weight: 500;
+.about > h1 {
+    text-align: center;
     padding: 6vh 0;
 }
 
