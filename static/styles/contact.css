@@ -1,21 +1,14 @@
-.title {
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    width: 100%;
-    justify-content: center;
-    -webkit-justify-content: center;
-    padding: 4% 0;
-    background-image: var(--title-gradient);
-    color: #FFFFFF;
-}
-
 .contact {
     padding: 10vh 19vw;
     width: calc(100vw - 38vw);
+    width: -webkit-calc(100vw - 38vw));
+    width: -ms-calc(100vw - 38vw));
     display: grid;
     display: -webkit-grid;
+    display: -ms-grid;
     grid-template-columns: 1fr 1fr;
+    -webkit-grid-template-columns: 1fr 1fr;
+    -ms-grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
@@ -24,8 +17,11 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     justify-content: space-between;
     -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
     gap: 30px;
 }
 
@@ -34,6 +30,8 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
 }
 
 .contact .form div span {
@@ -77,8 +75,15 @@
 .contact .map {
     width: 100%;
     object-fit: cover;
+    -o-object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
     object-position: center;
+    -o-object-position: center;
+    -webkit-object-position: center;
+    -moz-object-position: center;
     aspect-ratio: 1 / 1;
+    -webkit-aspect-ratio: 1 / 1;
 }
 
 /* Cross-Browser Compatibility for Media Query */
@@ -87,13 +92,20 @@
     .contact {
         padding: 4vh 3vh;
         grid-template-columns: 1fr;
+        -webkit-grid-template-columns: 1fr;
+        -ms-grid-template-columns: 1fr;
         width: calc(100vw - 6vw);
+        width: -webkit-calc(100vw - 6vw);
+        width: -ms-calc(100vw - 6vw);
     }
     
     .contact .form {
         display: grid;
         display: -webkit-grid;
+        display: -ms-grid;
         grid-template-columns: 1fr;
+        -webkit-grid-template-columns: 1fr;
+        -ms-grid-template-columns: 1fr;
         gap: 30px;
     }
 }

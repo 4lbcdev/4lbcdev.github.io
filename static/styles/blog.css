@@ -1,28 +1,19 @@
-.title {
-    font-family: NotoSerif;
-    display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    width: 100%;
-    justify-content: center;
-    -webkit-justify-content: center;
-    padding: 4% 0;
-    background-image: var(--title-gradient);
-    color: #FFFFFF;
-}
-
 .blog {
     padding: 6vh 20% 6vh 20%;
     max-width: 900px;
     display: grid;
     display: -webkit-grid;
+    display: -ms-grid;
     gap: 30px;
 }
 
 .blog article {
     display: grid;
     display: -webkit-grid;
+    display: -ms-grid;
     grid-template-columns: 1fr 1fr;
+    -webkit-grid-template-columns: 1fr 1fr;
+    -ms-grid-template-columns: 1fr 1fr;
     column-gap: 20px;
 }
 
@@ -32,6 +23,7 @@
 
 .blog article .feature_image {
     aspect-ratio: 3/2;
+    -webkit-aspect-ratio: 3 / 2;
     max-width: 720px;
     background-color: gray;
 }
@@ -50,10 +42,6 @@
 }
 
 @media only screen and (max-width: 720px) {
-    .title {
-        padding: 8% 0;
-    }
-
     .blog {
         padding: 4vh 3vh;
     }

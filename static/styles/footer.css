@@ -26,12 +26,14 @@ footer {
 }
 
 .container .main {
+    margin-bottom: 3%;
     display: grid;
     display: -webkit-grid;
     display: -ms-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    -webkit-grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr; 
     gap: 30px;
-    margin-bottom: 3%;
 }
 
 .footer1 .logo {
@@ -40,9 +42,9 @@ footer {
 }
 
 .footer1 div {
+    margin-top: 18px;
     color: #FFFFFF;
     font-size: 14px;
-    margin-top: 18px;
 }
 
 .footer2 .social {
@@ -50,6 +52,8 @@ footer {
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     gap: 18px;
 }
 
@@ -67,8 +71,11 @@ footer {
 .footer3 .subscribe {
     width: 100%;
     display: grid;
-    display: -webkit-grid;
     grid-template-columns: 1fr;
+    display: -webkit-grid;
+    -webkit-grid-template-columns: 1fr;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr;
     gap: 14px;
 }
 
@@ -77,15 +84,15 @@ footer {
     border: none;
     border-bottom: 1px #FFFFFF solid;
     color: #FFFFFF;
-    width: 100%;
+    width: calc(100% - 8px);
+    width: -webkit-calc(100% - 8px);
+    width: -ms-calc(100% - 8px);
     font-size: 14px;
     padding: 2px 4px;
 }
 
 .footer3 .subscribe button {
-    width: calc(100% + 8px);
-    width: -webkit-calc(100% + 8px);
-    width: -ms-calc(100% + 8px);
+    width: 100%;
     background-color: var(--blue);
     border: none;
     font-size: 14px;
@@ -116,7 +123,7 @@ footer {
     color: #FFFFFF;
     font-size: 14px;
     text-align: center;
-    padding: 2vh 8vw;
+    padding: 2vh 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 937px) {
@@ -133,6 +140,8 @@ footer {
 
     .container .main {
         grid-template-columns: 1fr;
+        -webkit-grid-template-columns: 1fr;
+        -ms-grid-columns: 1fr;
     }
 
     .main .divider {

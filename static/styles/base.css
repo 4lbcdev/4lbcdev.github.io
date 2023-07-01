@@ -52,3 +52,22 @@ body {
         font-size: 0.9rem;
     }
 }
+
+.title {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    width: 100%;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    padding: 4% 0;
+    background-image: var(--title-gradient);
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 720px) {
+    .title {
+        padding: 8% 0;
+    }
+}

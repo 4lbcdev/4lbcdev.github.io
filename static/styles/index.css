@@ -5,6 +5,7 @@ HOME SECTION
 =======================================================================================*/
 
 .home {
+    position: relative;
     top: 0;
 }
 
@@ -110,6 +111,7 @@ SLIDER SECTION
     width: 100%;
     height: auto;
     aspect-ratio: 4 / 3;
+    -webkit-aspect-ratio: 4 / 3;
     margin: 8vh 0;
 }
   
@@ -140,6 +142,7 @@ SLIDER SECTION
     width: 100%;
     height: auto;
     aspect-ratio: 4 / 3;
+    -webkit-aspect-ratio: 4 / 3;
 }
 
 .caption {
@@ -184,13 +187,18 @@ IMPACT SECTION
     display: -webkit-flex;
     display: -ms-flexbox;
     flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     background-color: #e7dfdf;
 }
 
 .impact .impacts .item {
     display: grid;
-    display: -webkit-grid;
     grid-template-columns: 1fr 1fr;
+    display: -webkit-grid;
+    -webkit-grid-template-columns: 1fr 1fr;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr; 
 }
 
 .impact .impacts .item div {
@@ -208,7 +216,8 @@ IMPACT SECTION
     width: 100%;
     height: auto;
     object-fit: cover;
-    aspect-ratio: 7/4;
+    aspect-ratio: 7 / 4;
+    -webkit-aspect-ratio: 7 / 4;
 }
 
 .button-container {
@@ -238,10 +247,14 @@ IMPACT SECTION
         display: -webkit-flex;
         display: -ms-flexbox;
         flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
     }
 
     .impact .impacts .item:nth-child(2) {
         flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
     }
 
     .impact .impacts .item div {
@@ -262,18 +275,29 @@ PARTNERS SECTION
 }
 
 .partners .items {
+    margin-top: 8vh;
     display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     justify-content: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     align-items: center;
+    -webkit-align-items: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 8vh;
 }
 
 .partners .items img {
     height: 180px;
     width: 180px;
     object-fit: fill;
+    -o-object-fit: fill;
+    -moz-object-fit: fill;
+    -webkit-object-fit: fill;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 810px) {
