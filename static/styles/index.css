@@ -219,6 +219,9 @@ IMPACT SECTION
     object-fit: cover;
     aspect-ratio: 7 / 4;
     -webkit-aspect-ratio: 7 / 4;
+    -moz-aspect-ratio: 7 / 4;
+    -ms-aspect-ratio: 7 / 4;
+    -o-aspect-ratio: 7 / 4;
 }
 
 .button-container {
