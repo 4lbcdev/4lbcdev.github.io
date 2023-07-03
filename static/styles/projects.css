@@ -23,16 +23,16 @@ IMPACT SECTION
 
 =======================================================================================*/
 
-.tableauPlaceholder {
+#map {
     width: calc(100vw - 38vw);
     width: -webkit-calc(100vw - 38vw);
     width: -ms-calc(100vw - 38vw);
-    height: auto;
+    height: 500px;
     z-index: 1;
 }
 
 @media only screen and (max-width: 937px) {
-    .tableauPlaceholder {
+    #map {
         width: calc(100vw - 6vw);
         width: -webkit-calc(100vw - 6vw);
         width: -ms-calc(100vw - 6vw);
